@@ -1,10 +1,5 @@
-- 👋 Hi, I’m @THEMOON555
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-THEMOON555/THEMOON555 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+> apt install python2 -y
+> apt install git -y
+> git clone https://github.com/THEMOON555/VxV-X1
+> cd VxV-X1
+> python2 W-XX1.py
