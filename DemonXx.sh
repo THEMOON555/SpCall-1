@@ -9,19 +9,20 @@ merahmuda="\33[35m"
 birumuda="\33[1;36m"
 putih="\033[37m"
 
+
 menu() {
 clear
    echo
    echo -e "\033[31m$(figlet -f Remo773 "Spam")\e[0m"
    echo
    echo -e $kuning" ╔═══════════════════════════════════════════════╗"
-   echo -e $kuning" ║"   "\033[1;36mAuther    : DemonZXxx                      "$kuning"    ║"
-   echo -e $kuning" ║"   "\033[1;36mTeam      :  Cyber  Hunter                 "$kuning"    ║"
-   echo -e $kuning" ║"   "\033[1;36mGithub    : https://github.com/THEMOON555  "$kuning"    ║"
+   echo -e $kuning" ║"   "\033[1;36mAuther    : DemonZXxx                     "$kuning"    ║"
+   echo -e $kuning" ║"   "\033[1;36mTeam      :  Cyber  Hunter                "$kuning"    ║"
+   echo -e $kuning" ║"   "\033[1;36mGithub    : https://github.com/THEMOON555 "$kuning"    ║"
    echo -e $kuning" ╚═══════════════════════════════════════════════╝"
 
 echo -e $putih "╔════════════════════════╗"
-   echo -e " ║ " "\033[1;31m  Tools Spam.          "$putih "  ║"
+   echo -e " ║ " "\033[1;31m  Tools Spam. "$putih "  ║"
    echo -e $putih "╚════════════════════════╝"
    echo
    echo -e $kuning "[1]""  SpamCall" $hijau "   [aktif]"
